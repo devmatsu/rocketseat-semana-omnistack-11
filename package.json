@@ -1,0 +1,11 @@
+{
+  "name": "rocketseat-semana-omnistack-11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devmatsu/rocketseat-semana-omnistack-11",
+  "author": "devmatsu <devmatsu@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
