@@ -1,8 +1,10 @@
 const connection = require('../connection');
 
 module.exports = {
-    async createImageBitmap(req, res) {
+    async create (req, res) {
         const { id } = req.body;
+
+        if (!id) return res.status(400).json({ error: 'Missing ID' });
 
         const ong = await connection('ongs')
           .where('id', id)
