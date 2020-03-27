@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-import Header from './Header';
+import './global.css'
+
+import Routes from './routes';
 
 // JSX (JavaScript XML)
 
@@ -14,10 +16,7 @@ function App() {
   }
 
   return (
-    <div>   
-      <Header>counter: {counter}</Header>
-      <button onClick={increment}>Incrementar</button>
-    </div>
+      <Routes />
   );
 }
 
