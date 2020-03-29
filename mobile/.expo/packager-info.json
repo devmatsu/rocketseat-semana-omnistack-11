@@ -2,8 +2,8 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 972,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "packagerPid": 7120,
+  "expoServerNgrokUrl": "https://nv-27v.anonymous.mobile.exp.direct",
+  "packagerNgrokUrl": "https://packager.nv-27v.anonymous.mobile.exp.direct",
+  "ngrokPid": 16440
 }
