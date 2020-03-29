@@ -26,5 +26,5 @@ A Semana Omnistack é um treinamento online, no qual iremos construir uma aplica
 
 
 ### Plataformas para Deploy:
-• Heroku
-• Digital Ocean
++ Heroku
++ Digital Ocean
