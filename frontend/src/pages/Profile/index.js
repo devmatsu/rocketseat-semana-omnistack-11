@@ -23,7 +23,7 @@ export default function Profile() {
         }).then(response => {
             setIncidents(response.data);
         })
-    }, [ongId]);
+    }, [ongId]); 
 
     async function handleDeleteIncident(id) {
         try {
@@ -57,7 +57,7 @@ export default function Profile() {
                 </button>
             </header>
 
-            <h1>Casos cadastrados</h1>
+            <h1>{incidents.length > 0 ? 'Casos cadastrados' : 'Nenhum caso cadastrado'}</h1>
 
             <ul>
                 {incidents.map(incidents => (
