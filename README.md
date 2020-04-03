@@ -11,7 +11,6 @@ A Semana Omnistack é um treinamento online, no qual iremos construir uma aplica
 
 A aplicação para essa semana é a "Be The Hero", a ideia é conectar as pessoas com as ONG's que possam ajudar de qualquer forma, seja ela com doações monetárias, alimentos, entre outros.
 
-
 ### Rota / Rercurso
 + Método HTTP:
     + GET: Buscar/listar uma informação do back-end
